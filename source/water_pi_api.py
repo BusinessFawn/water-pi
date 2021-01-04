@@ -10,7 +10,7 @@ LEDS = {
     'blue': {'led': LED(4), 'state': 'on'}
 }
 
-for k,v in LEDS.items():
+for k, v in LEDS.items():
     print(f'off: {k}')
     v['led'].on()
     v['state'] = 'off'
