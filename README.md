@@ -14,6 +14,8 @@ Running this locally on the Pi:
 1. copy repo
     * `git clone https://github.com/BusinessFawn/water-pi.git`
 1. go to correct dir
-    * `cd water-pi/`
+   * `cd water-pi/`
+1. update code
+   * `git pull origin master`
 1. start server
-    * `bash run_led_pi_api.sh`
+   * `bash run_led_pi_api.sh`
